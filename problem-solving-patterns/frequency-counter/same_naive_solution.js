@@ -2,6 +2,7 @@
 function same (arr1, arr2) {
   // If the length of the two arrays is not equal, return false
   if (arr1.length !== arr2.length) {
+    console.log('Arrays are different in size')
     return false
   }
 
@@ -12,6 +13,7 @@ function same (arr1, arr2) {
 
     // If the squared value does not exist in the second array, return false
     if (correctIndex === -1) {
+      console.log('Squared value does not exist in the second array')
       return false
     }
 
@@ -20,8 +22,9 @@ function same (arr1, arr2) {
   }
 
   // If all elements in the first array have a squared value in the second array, return true
+  console.log('All numbers have a squared value')
   return true
 }
 
 // Call the same function with two arrays as inputs
-same([1, 2, 3, 2], [9, 1, 4, 4])
+same([1, 2, 3, 2], [9, 1, 4, 3])
