@@ -5,3 +5,10 @@
 // Note: You may assume the string contains only lowercase alphabets.
 
 // Time Complexity - O(n)
+
+function anagram (arr1, arr2) {
+  if (length.arr1 !== length.arr2) {
+    console.log('Words have different lengths')
+    return false
+  }
+}
