@@ -6,9 +6,11 @@
 
 // Time Complexity - O(n)
 
-function anagram (arr1, arr2) {
-  if (length.arr1 !== length.arr2) {
+function anagram (str1, str2) {
+  if (str1.length !== str2.length) {
     console.log('Words have different lengths')
     return false
   }
 }
+
+anagram('dictionary', 'indicastory')
