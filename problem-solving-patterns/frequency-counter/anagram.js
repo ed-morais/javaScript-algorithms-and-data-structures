@@ -11,6 +11,13 @@ function anagram (str1, str2) {
     console.log('Words have different lengths')
     return false
   }
+  for (let char of str1) {
+    console.log(char)
+  }
+
+  for (let char of str2) {
+    console.log(char)
+  }
 }
 
-anagram('dictionary', 'indicastory')
+anagram('dictionary', 'indicatory')
